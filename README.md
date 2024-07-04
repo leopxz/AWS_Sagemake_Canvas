@@ -55,7 +55,7 @@ Impacto do preço na previsão de item_id
 **Predições vs. Valores Reais**
 
 **Conclusões e Insights:**
-**Impacto do Preço:** Conforme observado, o preço tem uma influência significativa nas previsões, sendo a característica mais importante para o modelo.
-**Desempenho do Modelo:** O modelo mostrou um desempenho excelente com uma precisão média superior a 98%. Isso indica que o modelo é altamente confiável para fazer previsões de demanda de estoque.
-**Distribuição das Predições:** A visualização das predições versus os valores reais mostra que o modelo conseguiu mapear corretamente a maioria das classes de item_id, com poucas discrepâncias.
+**Impacto do Preço:** Conforme observado, o preço tem uma influência significativa nas previsões, sendo a característica mais importante para o modelo. (\**)
+**Desempenho do Modelo:** O modelo mostrou um desempenho excelente com uma precisão média superior a 98%. Isso indica que o modelo é altamente confiável para fazer previsões de demanda de estoque. (\**)
+**Distribuição das Predições:** A visualização das predições versus os valores reais mostra que o modelo conseguiu mapear corretamente a maioria das classes de item_id, com poucas discrepâncias. (\**)
 
