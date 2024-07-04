@@ -57,8 +57,6 @@ O modelo foi treinado com um conjunto de dados com 243,000 mil (6x40,500) celula
 Impacto do Preço na Predição do item_id:<br>
 A análise visual da imagem mostra o impacto do preço nas previsões do item_id específico sku-001. A variação dos pontos ao longo do eixo horizontal (preço) indica como mudanças no preço afetam a previsão do modelo.<br><br>
 
-
-## Previsões vs. Valores Reais:
 A segunda imagem mostra uma comparação entre os valores previstos pelo modelo e os valores reais. É possível ver a correspondência entre as previsões e os resultados reais para diferentes item_id.<br><br>
 
 
