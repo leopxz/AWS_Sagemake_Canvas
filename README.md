@@ -1,34 +1,45 @@
 # 📊 Previsão de Estoque Inteligente na AWS com [SageMaker Canvas](https://aws.amazon.com/pt/sagemaker/canvas/)
 
 Bem-vindo ao desafio de projeto "Previsão de Estoque Inteligente na AWS com SageMaker Canvas. Neste Lab DIO, você aprenderá a usar o SageMaker Canvas para criar previsões de estoque baseadas em Machine Learning (ML). Siga os passos abaixo para completar o desafio!
-
-## 📋 Pré-requisitos
-
 Antes de começar, certifique-se de ter uma conta na AWS. Se precisar de ajuda para criar sua conta, confira nosso repositório [AWS Cloud Quickstart](https://github.com/digitalinnovationone/aws-cloud-quickstart).
 
+##  Relatório de Projeto de Machine Learning com AWS SageMaker Canvas
 
-## 🎯 Objetivos Deste Desafio de Projeto (Lab)
+## 🎯 Introdução
+Olá! Este é o relatório do meu projeto de Machine Learning utilizando a plataforma AWS SageMaker Canvas, que permite criar modelos de aprendizado de máquina sem a necessidade de codificação. O objetivo deste projeto foi prever a demanda de produtos em estoque com base em um conjunto de dados fornecido.
 
-![image](https://github.com/digitalinnovationone/lab-aws-sagemaker-canvas-estoque/assets/730492/72f5c21f-5562-491e-aa42-2885a3184650)
+### 1. Selecionando Dataset
 
-- Dê um fork neste projeto e reescreva este `README.md`. Sinta-se à vontade para detalhar todo o processo de criação do seu Modelo de ML para uma "Previsão de Estoque Inteligente".
-- Para isso, siga o [passo a passo] descrito a seguir e evolua as suas habilidades em ML no-code com o Amazon SageMaker Canvas.
-- Ao concluir, envie a URL do seu repositório com a solução na plataforma da DIO.
+Descrição do Conjunto de Dados
+O conjunto de dados utilizado contém 243.000 células (6 x 40.500) com as seguintes colunas:
 
+item_id: Identificação do produto
+Location: Localização
+time_stamp: Data
+demand: Demanda do produto
+price: Preço do produto
+Product_category: Categoria do produto
 
-## 🚀 Passo a Passo
+### 2. Treinando dataset
 
-### 1. Selecionar Dataset
+Análise das Métricas de Performance
+Após o treinamento do modelo, as métricas de performance foram as seguintes:
 
--   Navegue até a pasta `datasets` deste repositório. Esta pasta contém os datasets que você poderá escolher para treinar e testar seu modelo de ML. Sinta-se à vontade para gerar/enriquecer seus próprios datasets, quanto mais você se engajar, mais relevante esse projeto será em seu portfólio.
--   Escolha o dataset que você usará para treinar seu modelo de previsão de estoque.
--   Faça o upload do dataset no SageMaker Canvas.
+Métrica de otimização (accuracy): 98.173%
+Média do F1 Score: 98.168%
+Média de precisão (precision): 98.237%
+Média de recall: 98.173%
+Perda de validação (validation loss): 0.079
+Colunas mais influentes
+price: 33.379%
+product_category: 32.924%
+demand: 22.816%
+time_stamp: 10.484%
+location: 0.197%
+Previsão
+Utilizei o modelo treinado para prever a demanda de estoque. Abaixo, seguem as principais observações a partir das previsões geradas.
 
-### 2. Construir/Treinar
-
--   No SageMaker Canvas, importe o dataset que você selecionou.
--   Configure as variáveis de entrada e saída de acordo com os dados.
--   Inicie o treinamento do modelo. Isso pode levar algum tempo, dependendo do tamanho do dataset.
+Impacto do preço na previsão de item_id
 
 ### 3. Analisar
 
@@ -38,10 +49,9 @@ Antes de começar, certifique-se de ter uma conta na AWS. Se precisar de ajuda p
 
 ### 4. Prever
 
--   Use o modelo treinado para fazer previsões de estoque.
--   Exporte os resultados e analise as previsões geradas.
--   Documente suas conclusões e qualquer insight obtido a partir das previsões.
+Predições vs. Valores Reais
+Conclusões e Insights
+Impacto do Preço: Conforme observado, o preço tem uma influência significativa nas previsões, sendo a característica mais importante para o modelo.
+Desempenho do Modelo: O modelo mostrou um desempenho excelente com uma precisão média superior a 98%. Isso indica que o modelo é altamente confiável para fazer previsões de demanda de estoque.
+Distribuição das Predições: A visualização das predições versus os valores reais mostra que o modelo conseguiu mapear corretamente a maioria das classes de item_id, com poucas discrepâncias.
 
-## 🤔 Dúvidas?
-
-Esperamos que esta experiência tenha sido enriquecedora e que você tenha aprendido mais sobre Machine Learning aplicado a problemas reais. Se tiver alguma dúvida, não hesite em abrir uma issue neste repositório ou entrar em contato com a equipe da DIO.
