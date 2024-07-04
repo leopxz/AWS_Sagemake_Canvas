@@ -44,8 +44,7 @@ Impacto do preço na previsão de item_id<br>
 
 ![Predições vs. Valores Reais](https://github.com/leopxz/AWS_Sagemake_Canvas/assets/132235168/0f375131-8906-45ee-b3f2-bf082184ed12)
 <br><br>
-
-
+![foto2](https://github.com/leopxz/AWS_Sagemake_Canvas/assets/132235168/28391ab6-1258-4b44-993b-0033d74b52c0)<br><br>
 
 **Conclusões e Insights:**<br><br>
 **Impacto do Preço:** Conforme observado, o preço tem uma influência significativa nas previsões, sendo a característica mais importante para o modelo.<br>
@@ -88,3 +87,8 @@ Com base nos resultados, o sku-090 tem a maior probabilidade de 54.047%. Isso in
 
 ## Análise dos Resultados<br>
 A alta probabilidade associada ao sku-090 demonstra uma forte confiança do modelo de que este é o item que será demandado para as características fornecidas. Este insight pode ser utilizado para ajustar o estoque e estratégias de marketing, garantindo que o item correto esteja disponível para atender à demanda esperada.
+
+## Considerações finais
+
+A previsão de demanda utilizando AWS SageMaker Canvas mostrou-se eficaz, com o sku-090 sendo identificado como o item mais provável de ser demandado. Isso me ajuda a garantir que as decisões de estoque e marketing sejam baseadas em dados precisos e confiáveis, otimizando as operações e aumentando a eficiência.<br><br>
+Estou satisfeito com os resultados alcançados até o momento e ansioso para continuar explorando e aprimorando minhas habilidades em Machine Learning. Este projeto foi uma excelente oportunidade para aplicar conceitos teóricos em uma plataforma prática e poderosa como o AWS SageMaker Canvas.
