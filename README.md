@@ -1,7 +1,4 @@
-# 📊 Previsão de Estoque Inteligente na AWS com [SageMaker Canvas](https://aws.amazon.com/pt/sagemaker/canvas/)
 
-Bem-vindo ao desafio de projeto "Previsão de Estoque Inteligente na AWS com SageMaker Canvas. Neste Lab DIO, você aprenderá a usar o SageMaker Canvas para criar previsões de estoque baseadas em Machine Learning (ML). Siga os passos abaixo para completar o desafio!
-Antes de começar, certifique-se de ter uma conta na AWS. Se precisar de ajuda para criar sua conta, confira nosso repositório [AWS Cloud Quickstart](https://github.com/digitalinnovationone/aws-cloud-quickstart).
 
 ##  Relatório de Projeto de Machine Learning com AWS SageMaker Canvas
 
@@ -43,10 +40,12 @@ Após o treinamento do modelo, as métricas de performance foram as seguintes:
 
 ### **Previsão:**<br>
 Utilizei o modelo treinado para prever a demanda de estoque. Abaixo, seguem as principais observações a partir das previsões geradas.<br>
-Impacto do preço na previsão de item_id
-**Predições vs. Valores Reais**
+Impacto do preço na previsão de item_id<br>
 
-<br><br>FOTO AQUI<br><br>
+![Predições vs. Valores Reais](https://github.com/leopxz/AWS_Sagemake_Canvas/assets/132235168/0f375131-8906-45ee-b3f2-bf082184ed12)
+<br><br>
+
+
 
 **Conclusões e Insights:**<br><br>
 **Impacto do Preço:** Conforme observado, o preço tem uma influência significativa nas previsões, sendo a característica mais importante para o modelo.<br>
@@ -55,7 +54,7 @@ Impacto do preço na previsão de item_id
 
 O modelo foi treinado com um conjunto de dados com 243,000 mil (6x40,500) celulas, e utilizei as funcionalidades de análise de métricas de performance e predição de estoque para produtos. Este relatório documenta o processo, as previsões realizadas e as análises resultantes.<br><br>
 
-##Análise dos Resultados do Treinamento<br>
+## Análise dos Resultados do Treinamento<br>
 Impacto do Preço na Predição do item_id:<br>
 A análise visual da imagem mostra o impacto do preço nas previsões do item_id específico sku-001. A variação dos pontos ao longo do eixo horizontal (preço) indica como mudanças no preço afetam a previsão do modelo.<br><br>
 
